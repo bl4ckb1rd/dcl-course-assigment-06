@@ -1,4 +1,4 @@
-import {BuilderHUD} from './modules/BuilderHUD'
+// import {BuilderHUD} from './modules/BuilderHUD'
 
 let scene = new Entity()
 engine.addEntity(scene)
@@ -30,7 +30,9 @@ xWingFighter.setParent(scene)
 engine.addEntity(xWingFighter)
 
 // XXX BuilderHUD
+/*
 let hud:BuilderHUD =  new BuilderHUD()
 hud.attachToEntity(tieFighter)
 hud.attachToEntity(xWingFighter)
 hud.setDefaultParent(scene)
+*/
